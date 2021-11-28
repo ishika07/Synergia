@@ -1,0 +1,108 @@
+
+    
+.home-svg{
+    
+    height: 343px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 172%;
+    transform: rotateY(180deg);
+    transform: rotate(0deg)rotate(0deg)translateX(-288px)translateY(241px)scaleY(2);
+}
+    
+body{
+    overflow-x: hidden;
+}
+#home-main{
+    
+    height: 70vh;
+    width: 100vw;
+    
+    background-size: 700px 400px;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+}
+.home-tabs{
+    position: absolute;
+    width: 40%;
+    height: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    top: 200px;
+}
+.home-tabs:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+  }
+.react-chatbot-kit-chat-bot-message{
+    background-color: #3498db;
+}
+#home-main h1{
+    color:hsl(194, 79%, 50%);
+    
+}
+#home-main h2 {
+  color: #484848;
+  font-size: 24px;
+}
+#home-main .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+#home-main .btn-get-started:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.header-img {
+  text-align: right;
+
+}
+/* Edit the Home page image */
+img {    
+  padding: 10px 30px;
+  width: 500px;
+  display: block;
+  display: block;
+   margin-left: auto;
+   bottom:70px;
+   position:absolute;
+   left:800px; 
+}
+
+
+#home-main .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* used for animation of image */
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

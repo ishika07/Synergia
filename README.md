@@ -57,5 +57,6 @@ Follow the following steps to get development environment running.
   cd Server
   npm start
   ```
+  ![Alt text](Supporting_Document/Application_Flowchart.jpeg?raw=true "Optional Title")
  
 
